@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/update_delete_dialog_ed_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/ed_shape"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textMultiLine"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/update_delete_dialog_ed_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/ed_shape"
+        android:ems="10"
+        android:hint="Note"
+        android:inputType="textMultiLine"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/update_delete_dialog_ed_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_weight="1"
+            android:backgroundTint="#CD0D0D"
+            android:text="Delete"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/update_delete_dialog_ed_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_weight="1"
+            android:backgroundTint="#004DE6"
+            android:text="Update"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+
+</LinearLayout>
